@@ -8,6 +8,20 @@ Eshop provides separate customer, seller and administrator applications alongsid
 
 ---
 
+
+---
+
+## Live Applications
+
+| Application | Production link | Access |
+|---|---|---|
+| Customer Storefront | [Open Customer App](https://eshop-microservices-user-ui.vercel.app/) | Public storefront |
+| Seller Portal | [Open Seller App](https://eshop-microservices-seller-ui.vercel.app/signup) | Seller registration and authentication |
+| Administrator Portal | [Open Admin App](https://eshop-microservices-admin-ui.vercel.app/login) | Authorized administrators only |
+| API Gateway Health | [Check API Status](https://eshop-microservices-api-gateway.vercel.app/gateway-health) | Public health endpoint |
+
+> Administrator credentials are private and are not distributed through this repository. Recruiters may evaluate the public customer experience and seller registration flow directly.
+
 ## Project Status
 
 - Production deployment completed
